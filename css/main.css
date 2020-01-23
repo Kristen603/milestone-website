@@ -1,0 +1,31 @@
+/**GRID**/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+header {
+    height: 800px;
+    background: url("../img/desk.jpg");
+    background-size: cover;
+
+}
+
+
+
+/**FONT
+font-family: 'Lobster Two', cursive;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Source Sans Pro', sans-serif;
+**/
