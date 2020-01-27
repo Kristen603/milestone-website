@@ -1,3 +1,9 @@
+/**BASE STYLE**/
+body {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 25px;
+}
+
 /**GRID**/
 .full-width {
     width: 1200px;
@@ -14,13 +20,39 @@
     float: left;
 }
 
-header {
-    height: 800px;
-    background: url("../img/desk.jpg");
-    background-size: cover;
+/**HEADER**/
 
+header {
+    height: 400px;
+    background: url("../img/desk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: center;
 }
 
+header h1 {
+    border: solid 5px;
+    font-family: 'Source Serif Pro', serif;
+    color: #527a5c;
+    size: 50px;
+    text-align: center;
+}
+
+header h2 {
+    color: #189984;
+    font-family: 'Lobster Two', cursive;
+    size: 35px;
+    text-align: center;
+}
+
+/**PORTFOLIO**/
+#portfolio img {
+    width: 500px;
+    height: auto;
+}
+
+#portfolio 
 
 
 /**FONT
