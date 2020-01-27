@@ -1,7 +1,12 @@
 /**BASE STYLE**/
 body {
+    background-color: lightseagreen;
     font-family: 'Source Serif Pro', serif;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+#portfolio #about #contact {
+    height: 500px;
 }
 
 /**GRID**/
@@ -40,6 +45,7 @@ header h1 {
 }
 
 header h2 {
+    border: solid 5px;
     color: #189984;
     font-family: 'Lobster Two', cursive;
     size: 35px;
@@ -47,12 +53,39 @@ header h2 {
 }
 
 /**PORTFOLIO**/
+#portfolio {
+    background-color: lightsteelblue;
+}
 #portfolio img {
     width: 500px;
     height: auto;
 }
+#portfolio h2{    
+    text-align: center;
+}
 
-#portfolio 
+#portfolio h3{    
+    text-align: center;
+}
+
+#portfolio p {
+    text-align: justify;
+    clear: both;
+}
+
+/**ABOUT**/
+#about {
+    background-color: #334d4d;
+    border: solid 5px;
+    /**height: 500px;**/
+}
+
+
+/**CONTACT**/
+#contact {
+    background-color: #14806E;
+    /**height: 500px;**/
+}
 
 
 /**FONT
