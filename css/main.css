@@ -5,8 +5,8 @@ body {
     font-size: 20px;
 }
 
-#portfolio #about #contact {
-    height: 500px;
+#portfolio, #about, #contact {
+    height: 600px;
 }
 
 /**GRID**/
@@ -17,8 +17,19 @@ body {
 
 .half-width {
     width: 600px;
+    height: 400px;
     float: left;
 }
+/**.work-picture {
+    width: 600px;
+    float: left;
+}
+
+.work-text {
+    width: 600px;
+    float: left;
+}**/
+
 
 .third-width {
     width: 400px;
@@ -28,27 +39,29 @@ body {
 /**HEADER**/
 
 header {
-    height: 400px;
-    background: url("../img/desk.jpg");
-    background-repeat: no-repeat;
+    height: 500px;
+    background: url("../img/white-texture.jpg");
     background-size: cover;
-    width: 100%;
+    /**width: 100%;**/
     position: center;
+    
 }
 
 header h1 {
-    border: solid 5px;
-    font-family: 'Source Serif Pro', serif;
+    /**border: solid 5px;**/
     color: #527a5c;
-    size: 50px;
+    /**font-family: 'Lobster Two', cursive;**/
+    font-size: 60px;
+    margin: 0 auto;
+    padding-top: 140px;
     text-align: center;
 }
 
 header h2 {
-    border: solid 5px;
+    /**border: solid 5px;**/
     color: #189984;
-    font-family: 'Lobster Two', cursive;
-    size: 35px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -70,7 +83,6 @@ header h2 {
 
 #portfolio p {
     text-align: justify;
-    clear: both;
 }
 
 /**ABOUT**/
