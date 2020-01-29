@@ -4,13 +4,21 @@ body {
     font-family: 'Source Serif Pro', serif;
     font-size: 20px;
 }
-
-#portfolio, #about, #contact {
-    height: 600px;
+#portfolio {
+    height: 1300px;
 }
 
+#about {
+    height: 500px;
+}
+
+#connect {
+    height: 300px;
+}
 /**GRID**/
 .full-width {
+    /**clear: left;
+    display: block;**/
     width: 1200px;
     margin: 0 auto;
 }
@@ -20,20 +28,11 @@ body {
     height: 400px;
     float: left;
 }
-/**.work-picture {
-    width: 600px;
-    float: left;
-}
-
-.work-text {
-    width: 600px;
-    float: left;
-}**/
-
 
 .third-width {
     width: 400px;
     float: left;
+    text-align: center;
 }
 
 /**HEADER**/
@@ -42,15 +41,13 @@ header {
     height: 500px;
     background: url("../img/white-texture.jpg");
     background-size: cover;
-    /**width: 100%;**/
     position: center;
     
 }
 
 header h1 {
-    /**border: solid 5px;**/
     color: #527a5c;
-    /**font-family: 'Lobster Two', cursive;**/
+    font-family: 'El Messiri', sans-serif;
     font-size: 60px;
     margin: 0 auto;
     padding-top: 140px;
@@ -58,7 +55,6 @@ header h1 {
 }
 
 header h2 {
-    /**border: solid 5px;**/
     color: #189984;
     font-family: 'Source Serif Pro', serif;
     font-size: 40px;
@@ -74,14 +70,22 @@ header h2 {
     height: auto;
 }
 #portfolio h2{    
+    font-family: 'El Messiri', sans-serif;
+    font-size: 36px;
     text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
 }
 
 #portfolio h3{    
+    font-family: 'El Messiri', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
     text-align: center;
 }
 
 #portfolio p {
+    font-size: 24px;
     text-align: justify;
 }
 
@@ -89,14 +93,46 @@ header h2 {
 #about {
     background-color: #334d4d;
     border: solid 5px;
-    /**height: 500px;**/
 }
 
+#about h2 {
+    font-family: 'El Messiri', sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
 
-/**CONTACT**/
-#contact {
+#about img {
+    border: solid white 10px;
+    margin-left: 70px;
+}
+
+#about p {
+    font-size: 24px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+/**CONNECT**/
+#connect {
     background-color: #14806E;
-    /**height: 500px;**/
+    margin: 0 auto;
+}
+
+#connect h2 {
+    font-family: 'El Messiri', sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+#connect h3 {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#connect p {
+    font-size: 24px;
+    
 }
 
 
