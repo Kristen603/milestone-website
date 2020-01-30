@@ -1,24 +1,13 @@
 /**BASE STYLE**/
 body {
-    background-color: lightseagreen;
+    background-color: #63728C;
+    color: #090934;
     font-family: 'Source Serif Pro', serif;
     font-size: 20px;
 }
-#portfolio {
-    height: 1300px;
-}
 
-#about {
-    height: 500px;
-}
-
-#connect {
-    height: 300px;
-}
 /**GRID**/
 .full-width {
-    /**clear: left;
-    display: block;**/
     width: 1200px;
     margin: 0 auto;
 }
@@ -32,7 +21,7 @@ body {
 .third-width {
     width: 400px;
     float: left;
-    text-align: center;
+    margin-left: 35px;
 }
 
 /**HEADER**/
@@ -41,12 +30,13 @@ header {
     height: 500px;
     background: url("../img/white-texture.jpg");
     background-size: cover;
+    border-bottom: 5px solid #63728C;
     position: center;
     
 }
 
 header h1 {
-    color: #527a5c;
+    color: #b0b31c;
     font-family: 'El Messiri', sans-serif;
     font-size: 60px;
     margin: 0 auto;
@@ -55,7 +45,7 @@ header h1 {
 }
 
 header h2 {
-    color: #189984;
+    color: #63728C;
     font-family: 'Source Serif Pro', serif;
     font-size: 40px;
     text-align: center;
@@ -63,11 +53,14 @@ header h2 {
 
 /**PORTFOLIO**/
 #portfolio {
-    background-color: lightsteelblue;
+    background-color: #C2C2C2;
+    border-bottom: 5px solid #63728C;
+    height: 1300px;
 }
 #portfolio img {
     width: 500px;
     height: auto;
+    padding-left: 10px;
 }
 #portfolio h2{    
     font-family: 'El Messiri', sans-serif;
@@ -86,55 +79,82 @@ header h2 {
 
 #portfolio p {
     font-size: 24px;
-    text-align: justify;
+    padding-left: 20px;
 }
 
 /**ABOUT**/
 #about {
     background-color: #334d4d;
-    border: solid 5px;
+    border-bottom: 5px solid #63728C;
+    color: #D6EAE4;
+    height: 500px;
 }
 
 #about h2 {
     font-family: 'El Messiri', sans-serif;
+    margin: 0 auto;
+    padding-top: 20px;
     text-align: center;
     font-size: 36px;
 }
 
 #about img {
-    border: solid white 10px;
+    border: solid #D6EAE4 10px;
     margin-left: 70px;
+    margin-top: 35px;
 }
 
 #about p {
     font-size: 24px;
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: left;
 }
 
 /**CONNECT**/
 #connect {
-    background-color: #14806E;
+    background-color: #498874;
+    color: #D6EAE4;
+    height: 400px;
     margin: 0 auto;
+    width: 100%;
 }
 
 #connect h2 {
     font-family: 'El Messiri', sans-serif;
     text-align: center;
     font-size: 36px;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
 #connect h3 {
     font-family: 'El Messiri', sans-serif;
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
 }
 
 #connect p {
-    font-size: 24px;
-    
+    font-size: 22px;
+    text-align: center;
 }
 
+#connect #github {
+    margin-left: 100px;
+}
+
+/**FOOTER**/
+footer {
+    background: #498874;
+}
+
+footer p {
+    color: #D6EAE4;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
 
 /**FONT
 font-family: 'Lobster Two', cursive;
