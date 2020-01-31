@@ -22,13 +22,30 @@ body {
     width: 400px;
     float: left;
 }
+/**NAV**/
+nav {
+    float: right;
+    padding: 75px 75px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
 
 /**HEADER**/
-
 header {
     height: 750px;
-    background: url("../img/desktop.png");
+    background-image: url("../img/desktop.png");
     background-size: cover;
+    margin: 0 auto;
 }
 
 header h1 {
