@@ -1,6 +1,6 @@
 /**BASE STYLE**/
 body {
-    background-color: #63728C;
+    background-color: #ffffff;
     color: #090934;
     font-family: 'Source Serif Pro', serif;
     font-size: 20px;
@@ -27,12 +27,9 @@ body {
 /**HEADER**/
 
 header {
-    height: 500px;
-    background: url("../img/white-texture.jpg");
+    height: 750px;
+    background: url("../img/desktop.png");
     background-size: cover;
-    border-bottom: 5px solid #63728C;
-    position: center;
-    
 }
 
 header h1 {
@@ -40,12 +37,12 @@ header h1 {
     font-family: 'El Messiri', sans-serif;
     font-size: 60px;
     margin: 0 auto;
-    padding-top: 140px;
+    padding-top: 260px;
     text-align: center;
 }
 
 header h2 {
-    color: #63728C;
+    color: #498874;
     font-family: 'Source Serif Pro', serif;
     font-size: 40px;
     text-align: center;
@@ -53,14 +50,14 @@ header h2 {
 
 /**PORTFOLIO**/
 #portfolio {
-    background-color: #C2C2C2;
-    border-bottom: 5px solid #63728C;
+    background-color: #ffffff;
     height: 1300px;
 }
 #portfolio img {
+    border: solid #b7b7b7 1px;
     width: 500px;
     height: auto;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 #portfolio h2{    
     font-family: 'El Messiri', sans-serif;
@@ -70,24 +67,35 @@ header h2 {
     padding-top: 20px;
 }
 
-#portfolio h3{    
+#portfolio h3{ 
     font-family: 'El Messiri', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
-#portfolio p {
+#portfolio h4{
+    font-family: 'El Messiri', sans-serif;
     font-size: 24px;
-    padding-left: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 0;
+}
+
+
+#portfolio p {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 22px;
+    margin: 0 auto;
 }
 
 /**ABOUT**/
 #about {
-    background-color: #334d4d;
-    border-bottom: 5px solid #63728C;
+    background-color: #498874;
     color: #D6EAE4;
-    height: 500px;
+    height: 650px;
 }
 
 #about h2 {
@@ -100,21 +108,22 @@ header h2 {
 
 #about img {
     border: solid #D6EAE4 10px;
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: 35px;
 }
 
 #about p {
+    font-family: 'Source Serif Pro', serif;
     font-size: 24px;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: left;
 }
 
 /**CONNECT**/
 #connect {
-    background-color: #498874;
+    background-color: #334d4d;
     color: #D6EAE4;
-    height: 400px;
+    height: 350px;
     margin: 0 auto;
     width: 100%;
 }
@@ -135,6 +144,7 @@ header h2 {
 }
 
 #connect p {
+    font-family: 'Source Serif Pro', serif;
     font-size: 22px;
     text-align: center;
 }
@@ -145,7 +155,7 @@ header h2 {
 
 /**FOOTER**/
 footer {
-    background: #498874;
+    background: #334d4d;
 }
 
 footer p {
