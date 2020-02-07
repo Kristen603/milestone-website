@@ -8,7 +8,6 @@ body {
 
 #wrapper {
     width: 100%;
-    max-width: 1200px;
 }
 
 /**GRID**/
@@ -18,21 +17,20 @@ body {
 }
 
 .half-width {
-    width: 50%;
-    height: 400px;
-    float: left;
+    width: 80%;
+    height: 200px;
 }
 
 .third-width {
-    width: 33.3%;
+    width: 100%;
     float: left;
 }
 
 /**HEADER**/
 
 header {
-    height: 750px;
-    background: url("../img/desktop.png");
+    height: 280px;
+    background: url("../img/desktop-2.png");
     background-size: cover;
     width: 100%;
 }
@@ -40,16 +38,18 @@ header {
 header h1 {
     color: #b0b31c;
     font-family: 'El Messiri', sans-serif;
-    font-size: 60px;
+    font-size: 26px;
     margin: 0 auto;
-    padding-top: 260px;
+    padding-top: 75px;
     text-align: center;
 }
 
 header h2 {
     color: #498874;
     font-family: 'Source Serif Pro', serif;
-    font-size: 40px;
+    font-size: 22px;
+    padding: 2px 10px 2px 10px;
+    margin-top: 5px;
     text-align: center;
 }
 
@@ -62,38 +62,50 @@ header h2 {
     border: solid #b7b7b7 1px;
     width: 83%;
     height: auto;
-    margin-left: 10px;
+    margin-left: 60px;
+    margin-top: 42px;
+    margin-bottom: 5px;
 }
 #portfolio h2{    
     font-family: 'El Messiri', sans-serif;
-    font-size: 36px;
+    font-size: 22px;
     text-align: center;
-    margin-top: 0;
+    margin-top: 3px;
+    margin-bottom: -30px;
     padding-top: 20px;
 }
 
 #portfolio h3{ 
     font-family: 'El Messiri', sans-serif;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bolder;
     text-align: left;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 0px;
+    margin-left: 60px;
+    
 }
 
 #portfolio h4{
     font-family: 'El Messiri', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     text-align: left;
-    margin-top: 0;
+    margin-top: -5px;
+    margin-left: 60px;
+    margin-bottom: 0;
 }
 
 
 #portfolio p {
     font-family: 'Source Serif Pro', serif;
-    font-size: 22px;
-    margin: 0 auto;
+    font-size: 18px;
+    margin-top: -5px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    padding-top: -20px;
+    text-align: left;
+    overflow: visible;
 }
 
 /**ABOUT**/
@@ -113,24 +125,26 @@ header h2 {
 
 #about img {
     border: solid #D6EAE4 10px;
-    margin-left: 90px;
-    margin-top: 35px;
+    border-radius: 20%;
+    margin-left: 100px;
+    margin-top: 20px;
     width: 50%;
 }
 
 #about p {
     font-family: 'Source Serif Pro', serif;
-    font-size: 24px;
-    margin-top: 150px;
-    text-align: left;
-    width: 50%;
+    font-size: 18px;
+    margin-top: 45px;
+    margin-left: 65px;
+    text-align: center;
+    width: 80%;
 }
 
 /**CONNECT**/
 #connect {
     background-color: #334d4d;
     color: #D6EAE4;
-    height: 350px;
+    height: 450px;
     margin: 0 auto;
     width: 100%;
 }
@@ -148,16 +162,22 @@ header h2 {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    margin: 10px auto;
 }
 
 #connect p {
     font-family: 'Source Serif Pro', serif;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
+    margin-top: 0px;
 }
 
 #connect #github {
     margin-left: 100px;
+}
+
+#connect img {
+    margin-bottom: 25px;
 }
 
 /**FOOTER**/
@@ -180,3 +200,247 @@ font-family: 'El Messiri', sans-serif;
 font-family: 'Source Serif Pro', serif;
 font-family: 'Source Sans Pro', sans-serif;
 **/
+
+/**TABLET**/
+
+@media (min-width: 768px) and (max-width: 1199px){
+    /**GRID**/
+    .half-width {
+        height: 300px;
+        width: 50%;
+        float: left;
+    }
+
+    .third-width {
+        width: 33.3%;
+        float: left;
+    }
+    /**HEADER**/
+    header{
+        height: 300px;
+    }
+
+    header h1 {
+        font-size: 30px;
+        padding-top: 80px;
+    }
+
+    header h2 {
+        font-size: 25px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    /**PORTFOLIO**/
+
+    #portfolio {
+        height: 1000px;
+    }
+    #portfolio img {
+        margin-left: 20px;
+    }
+    #portfolio h2{    
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    
+    #portfolio h3{ 
+        font-size: 22px;
+        text-align: left;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    
+    #portfolio h4{
+        font-size: 20px;
+        text-align: left;
+        margin-top: 0px;
+        margin-left: 0;
+    }
+    
+    #portfolio p {
+        font-size: 18px;
+        margin: 0 auto;
+        padding-right: 15px;
+    }
+    /**ABOUT**/
+    #about {
+        height: 460px;
+    }
+
+    #about h2 {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+
+    #about img {
+        margin-left: 110px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 40%;
+    }
+
+    #about p {
+        font-size: 18px;
+        margin-top: 25px;
+        margin-left: 0px;
+        margin-right: 20px;
+        text-align: left;
+        width: 90%;
+    }
+
+/**CONNECT**/
+#connect {
+    height: 300px;
+    }
+
+#connect h2 {
+    font-size: 30px;
+    padding-top: 20px;
+    }
+
+#connect h3 {
+    font-size: 22px;
+    }
+
+#connect p {
+    font-size: 18px;
+    }
+
+#connect #github {
+    margin-left: 30px;
+    }
+
+/**FOOTER**/
+footer {
+    width: 100%;
+    }
+
+footer p {
+    font-size: 18px;
+    }
+}
+
+
+/**DESKTOP**/
+
+@media (min-width: 1200px){
+    /**Screen 1200px or more**/
+    /**GRID**/
+    .half-width {
+        height: 400px;
+        width: 50%;
+        float: left;
+    }
+    .third-width {
+        width: 33.3%;
+        float: left;
+    }
+
+    /**HEADER**/
+    
+    header {
+        height: 750px;
+    }
+
+    header h1 {
+        font-size: 60px;
+        padding-top: 260px;
+    }
+    
+    header h2 {
+        font-size: 40px;
+    }
+
+    /**PORTFOLIO**/
+
+    #portfolio {
+        height: 1300px;
+    }
+    #portfolio img {
+        margin-left: 45px;
+    }
+    #portfolio h2{    
+        font-size: 36px;
+        padding-top: 20px;
+    }
+    
+    #portfolio h3{ 
+        font-size: 26px;
+        text-align: left;
+        margin-left: 0px;
+        margin-top: 35px;
+    }
+    
+    #portfolio h4{
+        font-size: 24px;
+        margin-left: 0px;
+    }
+    
+    #portfolio p {
+        font-size: 22px;
+        margin: 0 auto;
+        padding-right: 20px;
+        margin-left: 0px;
+    }
+
+    /**ABOUT**/
+    #about {
+        height: 650px;
+    }
+        
+    #about h2 {
+        padding-top: 20px;
+        font-size: 36px;
+    }
+        
+    #about img {
+        margin-left: 90px;
+        margin-top: 35px;
+        width: 50%;
+    }
+        
+    #about p {
+        font-size: 24px;
+        margin-top: 150px;
+        margin-left: 0px;
+        margin-right: 40px;
+        text-align: left;
+        width: 75%;
+    }
+        
+    /**CONNECT**/
+    #connect {
+        height: 350px;
+    }
+        
+    #connect h2 {
+        font-size: 36px;
+        padding-top: 20px;
+    }
+        
+    #connect h3 {
+        font-size: 24px;
+        }
+        
+    #connect p {
+        font-size: 22px;
+        }
+        
+    #connect #github {
+        margin-left: 100px;
+        }
+        
+    /**FOOTER**/
+    footer {
+        width: 100%;
+        }
+        
+    footer p {
+        font-size: 20px;
+        }
+        }
+        
+    
+
+
+}
